@@ -12,6 +12,8 @@ public class Hilo_Proceso extends Thread {
             Hilo_Proceso.sleep(1000);
             } catch(InterruptedException e){
                 System.out.println("error dentro de la clase" + e);
+            }finally{
+                System.out.println("HOLAAAAAAAA WEEEEEEEAAAAAAAAAAAAWWWWWW");
             }
         }
     }
